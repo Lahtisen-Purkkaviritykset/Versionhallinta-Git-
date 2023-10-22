@@ -33,7 +33,7 @@ public class Laivanupotus {
         	{
             for (int j = 0; j < pelilauta[i].length; j++) 
             	{
-                pelilauta[i][j] = '-';
+                pelilauta[i][j] = 'O';
             	}
         	}
     	}
