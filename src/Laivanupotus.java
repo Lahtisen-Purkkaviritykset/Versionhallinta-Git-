@@ -26,5 +26,15 @@ public class Laivanupotus {
         System.out.println("Peli päättyi.");
         scanner.close();
 	}
-
+    // Alustetaan pelilauta ja käytetään ruudukkona viivaa "-"
+    private static void alustaPelilauta(char[][] pelilauta) 
+    	{
+        for (int i = 0; i < pelilauta.length; i++) 
+        	{
+            for (int j = 0; j < pelilauta[i].length; j++) 
+            	{
+                pelilauta[i][j] = '-';
+            	}
+        	}
+    	}
 }
